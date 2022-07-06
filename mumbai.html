@@ -1,0 +1,82 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body
+       {
+        padding:25px;
+        background-color:white;
+        color:black;
+        font-size: 25px;
+      }
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+      .light-mode {
+        background-color: white;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <body>
+        <section class="header">
+            <nav>
+               
+                <div class="w3-row-padding" style="box-sizing: content-box;">
+                  <div class="w3-half w3-margin-bottom">
+               <div class="nav-links" id="navl links">
+              <i class="fa fa-bars" on click="hide menu()"></i>
+                    
+                </div>
+                
+            </nav>
+   
+            <section class=" place">
+                <H1> <b><U>PUNE</b></U></b> </H1>       
+  <p><B><I>
+    Pune is blessed with many sights to keep you occupied all through your trip. There are a number of temples, some pretty parks/gardens, and a famous fort called Shaniwar Wada. The city also houses Osho Ashram, a visit where can give you a whole new experience. </I></B></P>            
+
+    <div class="row1">
+            <div class="place-col">
+               <div class="w3-row-padding" style="margin:0 -16px">
+                  <div class="w3-half w3-margin-bottom">
+                   <div class="w3-display-container">
+                     <img src="pune.jpg" alt="pune" style="width:100%">
+                    <span class="w3-display-bottomleft w3-padding"></span>
+                  </div>
+                </div>
+  
+        <P>
+            <B><I>
+              Pune, a beautiful city in Maharashtra, is a perfect blend of historical past and modernity. Owing to this reason Pune tourism is flourishing at an increasing rate. Pune is flooded with beautiful gardens, temples, landscapes, palaces, and mouth-watering street food. Pune is not only a famous tourist hub, but it is also an important educational hub of the country. The city is home to much prestigious management and medical colleges as well. All the cultural, educational, and adventure-based aspects add to tourism in Pune. This city is undoubtedly the cultural hub of the country bringing forth an amalgam of different cultures, people from different places and binding them into a beautiful community. This city in the western Indian state of Maharashtra is also known as the Oxford of the East.</I></B></P>
+               <h3 id="DarkModetext">Dark Mode is OFF</h3>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    <script>
+      function darkMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+        content.innerText = "Dark Mode is ON";
+      }
+      function lightMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+        content.innerText = "Dark Mode is OFF";
+      }
+    </script>
+ 
+</div>
+
+  </body>
+</html>

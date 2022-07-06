@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body
+       {
+        padding:25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+      .light-mode {
+        background-color: white;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <body>
+        <section class="header">
+            <nav>
+               
+                <div class="w3-row-padding" style="box-sizing: content-box;">
+                  <div class="w3-half w3-margin-bottom">
+               <div class="nav-links" id="navl links">
+              <i class="fa fa-bars" on click="hide menu()"></i>
+                    
+                </div>
+                
+            </nav>
+   
+            <section class=" place">
+                <H1> <b><u>NEW DEHLI</u></b></H1>    
+  <p><B><I>New Delhi is the capital of India and a part of the National Capital Territory of Delhi. New Delhi is the seat of all three branches of the government of India, hosting the Rashtrapati Bhavan, Parliament House, and the Supreme Court of India.</I></B></p>
+
+        <div class="row1">
+            <div class="place-col">
+               <div class="w3-row-padding" style="margin:0 -16px">
+                  <div class="w3-half w3-margin-bottom">
+                   <div class="w3-display-container">
+
+                    <img src="newdelhi1.jpg" alt="new delhi" style="width:100%">
+                    <span class="w3-display-bottomleft w3-padding"></span>
+                  </div>
+                </div>
+  
+    
+        <P>
+            <B><I> In December 1911 King George V of Britain decreed that the capital of British India would be moved from Calcutta (now Kolkata) to Delhi. Construction began in 1912 at a site about 3 miles (5 km) south of the Delhi city centre, and the new capital was formally dedicated in 1931. The straight and diagonal pattern of the broad tree-lined avenues in New Delhi, with extensive green spaces and wide vistas, contrasts sharply with the crowded, narrow, and winding streets characteristic of Old Delhi. The main east-west axis of New Delhi is Central Vista Park, which is flanked by government buildings, museums, and research centres in a parklike setting. The city is governed by the appointed New Delhi Municipal Council (NDMC). Area city, 16.5 square miles (42.7 square km). Pop (2001) 302,363.
+</I></B></P></div>
+   <h3 id="DarkModetext">Dark Mode is OFF</h3>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    <script>
+      function darkMode() {
+        var element = document.body
+        var content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+        content.innerText = "Dark Mode is ON";
+      }
+      function lightMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+        content.innerText = "Dark Mode is OFF";
+      }
+    </script>
+ 
+</div>
+
+  </body>
+</html>

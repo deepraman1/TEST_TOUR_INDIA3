@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body
+       {
+        padding:25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+      .light-mode {
+        background-color: white;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <body>
+        <section class="header">
+            <nav>
+               
+                <div class="w3-row-padding" style="box-sizing: content-box;">
+                  <div class="w3-half w3-margin-bottom">
+               <div class="nav-links" id="navl links">
+              <i class="fa fa-bars" on click="hide menu()"></i>
+                    
+                </div>
+                
+            </nav>
+   
+            <section class=" place">
+                <H1> <b><U>KERALA</b></U></b> </H1>       
+  <p><B><I>Kerala, southwestern coastal state of India. It is a small state, constituting only about 1 percent of the total area of the country. Kerala stretches for about 360 miles (580 km) along the Malabar Coast, varying in width from roughly 20 to 75 miles (30 to 120 km). It is bordered by the states of Karnataka (formerly Mysore) to the north and Tamil Nadu to the east and by the Arabian Sea to the south and west; it also surrounds Mahe, a segment of the state of Puducherry, on the northwestern coast. The capital is Thiruvananthapuram (Trivandrum).
+    </I></B></p>    
+    <div class="row1">
+            <div class="place-col">
+               <div class="w3-row-padding" style="margin:0 -16px">
+                  <div class="w3-half w3-margin-bottom">
+                   <div class="w3-display-container">
+
+                    <img src="kerala.jpg" alt="kerala" style="width:100%">
+                    <span class="w3-display-bottomleft w3-padding"></span>
+                  </div>
+                </div>
+  
+        <P>
+            <B><I>
+                Kerala the ‘Queen of the Malabar Coast', is indeed one of the most gorgeous and enticing holiday destinations in the entire country. Adorned by the enchanting charm of the Arabian Sea, guarded by the lofty Western Ghats, jotted with numerous lagoons, and strapped by a chain of canals, this picturesque holiday casts a magical spell on all its visitors! Fondly called ‘God’s Own Country’, Kerala boasts of its bountiful beauty and prismatic offerings. Whether planning vacations with family members, friends, solo or with your colleagues, Kerala Tourism will keep you enchanted with its array of offerings and mesmeric beauty. Blessed with a pleasant and heart-warming climate, this scenic tourist destination is a year-round destination.
+    </I></B> </P>
+   
+   <h3 id="DarkModetext">Dark Mode is OFF</h3>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    <script>
+      function darkMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+        content.innerText = "Dark Mode is ON";
+      }
+      function lightMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+        content.innerText = "Dark Mode is OFF";
+      }
+    </script>
+ 
+</div>
+
+  </body>
+</html>

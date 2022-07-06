@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body
+       {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+      .light-mode {
+        background-color: white;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <body>
+        <section class="header">
+            <nav>
+               
+                <div class="w3-row-padding" style="box-sizing: content-box;">
+                  <div class="w3-half w3-margin-bottom">
+               <div class="nav-links" id="navl links">
+              <i class="fa fa-bars" on click="hide menu()"></i>
+                    
+                </div>
+                
+            </nav>
+   
+            <section class=" place">
+                <h1><u><B><I>Popular Place </B></I></u></h1>
+  <p><B><I>VARANASI has also been a great center of learning for ages. Varanasi is associated with promotion of spiritualism, mysticism, Sanskrit, yoga and Hindi language and honored authors such as the ever-famous novelist Prem Chand and Tulsi Das, the famous saint-poet who wrote Ram Charit Manas. Aptly called as the cultural capital of India, Varanasi has provided the right platform for all cultural activities to flourish.</I></B> </p>
+        <H1> <b> VARANASI OR BENARAS </b> </H1>
+        <div class="row1">
+            <div class="place-col">
+               <div class="w3-row-padding" style="margin:0 -16px">
+                  <div class="w3-half w3-margin-bottom">
+                   <div class="w3-display-container">
+                    <img src="varnasi.jpeg.jpg" alt="Golden Temple" style="width:100%">
+                    <span class="w3-display-bottomleft w3-padding"> VARNASI</span>
+                  </div>
+                </div>
+  
+    
+        <P>
+            <B><I>Varanasi, or Benaras, (also known as Kashi) is one of the oldest living cities in the world. Varanasi`s Prominence in Hindu mythology is virtually unrevealed. Mark Twain, the English author and literature, who was enthralled by the legend and sanctity of Benaras, once wrote : “Benaras is older than history, older than tradition, older even than legend and looks twice as old as all of them put together. ”
+The land of Varanasi (Kashi) has been the ultimate pilgrimage spot for Hindus for ages. Hindus believe that one who is graced to die on the land of Varanasi would attain salvation and freedom from the cycle of birth and re-birth. Abode of Lord Shiva and Parvati, the origins of Varanasi are yet unknown. Ganges in Varanasi is believed to have the power to wash away the sins of mortals.
+Ganges is said to have its origins in the tresses of Lord Shiva and in Varanasi, it expands to the mighty river that we know of. The city is a center of learning and civilization for over 3000 years. With Sarnath, the place where Buddha preached his first sermon after enlightenment, just 10 km away, Varanasi has been a symbol of Hindu renaissance. Knowledge, philosophy, culture, devotion to Gods, Indian arts and crafts have all flourished here for centuries. Also a pilgrimage place for Jains, Varanasi is believed to be the birthplace of Parsvanath, the twenty-third Tirthankar.</B>
+
+            </I> </P>
+   
+  
+ 
+  
+    <h3 id="DarkModetext">Dark Mode is OFF</h3>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    <script>
+      function darkMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+        content.innerText = "Dark Mode is ON";
+      }
+      function lightMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+        content.innerText = "Dark Mode is OFF";
+      }
+    </script>
+ <div class="test-box">
+    <p> <b>Traveling opens door to creating memories.</b> </p>
+    <a href="" class="hero-btn"> visit us to know more</a>
+</div>
+
+  </body>
+</html>

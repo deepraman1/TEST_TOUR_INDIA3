@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body
+       {
+        padding:25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+      .light-mode {
+        background-color: white;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <body>
+        <section class="header">
+            <nav>
+               
+                <div class="w3-row-padding" style="box-sizing: content-box;">
+                  <div class="w3-half w3-margin-bottom">
+               <div class="nav-links" id="navl links">
+              <i class="fa fa-bars" on click="hide menu()"></i>
+                    
+                </div>
+                
+            </nav>
+   
+            <section class=" place">
+                <H1> <b><u>jaipur</u></b></H1>    
+  <p><B><I>Jaipur is the capital of India’s Rajasthan state. It evokes the royal family that once ruled the region and that, in 1727, founded what is now called the Old City, or “Pink City” for its trademark building color. At the center of its stately street grid (notable in India) stands the opulent, colonnaded City Palace complex. With gardens, courtyards and museums, part of it is still a royal residence.</I></B></p>
+        <div class="row1">
+            <div class="place-col">
+               <div class="w3-row-padding" style="margin:0 -16px">
+                  <div class="w3-half w3-margin-bottom">
+                   <div class="w3-display-container">
+
+                    <img src="" alt="jaipur" style="width:100%">
+                    <span class="w3-display-bottomleft w3-padding"></span>
+                  </div>
+                </div>
+  
+    
+        <P>
+            <B><I>If you take one look at the glorious stucco buildings that line Jaipur's wide streets, you'll understand why this is nicknamed "The Pink City." Spend your days exploring City Palace, Hawa Mahal, and Amber and Jaigarh forts. And if you're looking for a unique souvenir, head to one of the bazaars, where you can pick up a pair of camel-leather slippers.
+              Essential Jaipur
+</I></B></P></div>
+<h3 id="DarkModetext">Dark Mode is OFF</h3>
+<button onclick="darkMode()">Darkmode</button>
+<button onclick="lightMode()">LightMode</button>
+<script>
+  function darkMode() {
+    var element = document.body;
+    var content = document.getElementById("DarkModetext");
+    element.className = "dark-mode";
+    content.innerText = "Dark Mode is ON";
+  }
+  function lightMode() {
+    var element = document.body;
+    var content = document.getElementById("DarkModetext");
+    element.className = "light-mode";
+    content.innerText = "Dark Mode is OFF";
+
+      }
+    </script>
+ 
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,21 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+ }
+ .contact{
+  position: relative;
+  min-height: 100vh;
+padding:150px,100px;
+display: flex;
+justify-content: center;
+align-items: center ;
+flex-direction: column;
+background: url(contact.jpeg.jpg);
+background-size: cover;
+ }
+.contact.contactForm{
+    justify-content: center;
+}

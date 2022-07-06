@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body
+       {
+        padding:25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+      .light-mode {
+        background-color: white;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <body>
+        <section class="header">
+            <nav>
+               
+                <div class="w3-row-padding" style="box-sizing: content-box;">
+                  <div class="w3-half w3-margin-bottom">
+               <div class="nav-links" id="navl links">
+              <i class="fa fa-bars" on click="hide menu()"></i>
+                    
+                </div>
+                
+            </nav>
+   
+            <section class=" place">
+                <H1> <b><U>LADAKH</b></U></b> </H1>       
+  <p><B><I>
+    Ladakh, large area of the northern and eastern Kashmir region, northwestern Indian subcontinent. Administratively, Ladakh is divided between Pakistan (northwest), as part of Gilgit-Baltistan, and India (southeast), as part of Ladakh union territory (until October 31, 2019, part of Jammu and Kashmir state); in addition, China administers portions of northeastern Ladakh.
+
+</I></B></p>    
+    <div class="row1">
+            <div class="place-col">
+               <div class="w3-row-padding" style="margin:0 -16px">
+                  <div class="w3-half w3-margin-bottom">
+                   <div class="w3-display-container">
+                     <img src="ladakh.jpg" alt="ladakh" style="width:100%">
+                    <span class="w3-display-bottomleft w3-padding"></span>
+                  </div>
+                </div>
+  
+        <P>
+            <B><I>
+              The climate of Ladakh is cold and dry. Average annual precipitation is roughly 3 inches (80 mm); fine, dry, flaked snow is frequent and sometimes falls heavily. Vegetation is confined to valleys and sheltered spots, where a stunted growth of tamarisk (genus Tamarix) shrubs, furze (also called gorse; spiny plants of the legume family), and other plants supply much-needed firewood. The principal products are wheat, barley, millet, buckwheat, peas, beans, and turnips. Woolen cloth and other textiles are the primary manufactures.
+            </I></B></P>
+    
+                <h3 id="DarkModetext">Dark Mode is OFF</h3>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    <script>
+      function darkMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+        content.innerText = "Dark Mode is ON";
+      }
+      function lightMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+        content.innerText = "Dark Mode is OFF";
+      }
+    </script>
+ 
+</div>
+
+  </body>
+</html>

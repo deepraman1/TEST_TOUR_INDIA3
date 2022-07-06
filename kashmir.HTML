@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body
+       {
+        padding:25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+      .light-mode {
+        background-color: white;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <body>
+        <section class="header">
+            <nav>
+               
+                <div class="w3-row-padding" style="box-sizing: content-box;">
+                  <div class="w3-half w3-margin-bottom">
+               <div class="nav-links" id="navl links">
+              <i class="fa fa-bars" on click="hide menu()"></i>
+                    
+                </div>
+                
+            </nav>
+   
+            <section class=" place">
+                <H1> <b><U>KASHMIR</b></U></b> </H1>       
+  <p><B><I>
+    Jammu & Kashmir, a piece of heaven on earth, is the 19th largest state in India and it is located mostly all in the Himalayan mountains. It is also the only state in India with a Muslim-majority population.</I></B></p>    
+    <div class="row1">
+            <div class="place-col">
+               <div class="w3-row-padding" style="margin:0 -16px">
+                  <div class="w3-half w3-margin-bottom">
+                   <div class="w3-display-container">
+                     <img src="kashmir.jpg" alt="kashmir" style="width:100%">
+                    <span class="w3-display-bottomleft w3-padding"></span>
+                  </div>
+                </div>
+  
+        <P>
+            <B><I>
+                The beautiful sanctuaries of Jammu and Kashmir reward the nature seeker with views of diverse topography as well as the rarest species of wildlife. The state has several national parks and sanctuaries, aimed at protecting some of these endangered species. 
+                <br>How To Get To Jammu & Kashmir
+                <br>By flight - Visitors can fly into Jammu, Srinagar and Leh from most of the top cities in India on all leading airlines.
+                
+                <br>By rail - Udhampur is the last railway station on the northern railway line. Visitors can take the train up to this stop and then hire taxis or take a bus to go onwards. However, it is better to get down at Jammu as onward transport is more readily available from there.
+                <br>By road - Travelers can drive into the state via Jammu and go up to Srinagar, or they can enter from Manali in Himachal Pradesh and drive up to Leh. There are several state-owned and private buses also that ply these routes.</I></B></P>
+                
+                
+                <h3 id="DarkModetext">Dark Mode is OFF</h3>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    <script>
+      function darkMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+        content.innerText = "Dark Mode is ON";
+      }
+      function lightMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+        content.innerText = "Dark Mode is OFF";
+      }
+    </script>
+ 
+</div>
+
+  </body>
+</html>

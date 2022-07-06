@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body
+       {
+        padding:25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+      .light-mode {
+        background-color: white;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <body>
+        <section class="header">
+            <nav>
+               
+                <div class="w3-row-padding" style="box-sizing: content-box;">
+                  <div class="w3-half w3-margin-bottom">
+               <div class="nav-links" id="navl links">
+              <i class="fa fa-bars" on click="hide menu()"></i>
+                    
+                </div>
+                
+            </nav>
+   
+            <section class=" place">
+                <H1> <b><U>DALHOUSIE</b></U></b> </H1>       
+  <p><B><I>
+    Dalhousie is a high-altitude town spread across 5 hills near the Dhauladhar mountain range in the north Indian state of Himachal Pradesh. It's home to colonial-era buildings, including St. Francis and St. John’s churches, which date back to the rule of the British Raj in the 1800s. A trek up Dainkund Peak leads to Pholani Devi Temple.
+</I></B></p>    
+    <div class="row1">
+            <div class="place-col">
+               <div class="w3-row-padding" style="margin:0 -16px">
+                  <div class="w3-half w3-margin-bottom">
+                   <div class="w3-display-container">
+                     <img src="dalhouse.jpg" alt="dalhousie" style="width:100%">
+                    <span class="w3-display-bottomleft w3-padding"></span>
+                  </div>
+                </div>
+  
+        <P>
+            <B><I>
+                Dalhousie is one of the most famous hill stations of Himachal Pradesh. It stretches itself leisurely through the five mountains, Kathlog, Potreyn, Terah, Bakrota and Bhangora. It was established by Lord Dalhousie in 1850, and there are many things that remind you of its colonial past. Sightseeing though, is one of the many ways of keeping yourself busy here.
+Those visiting Dalhousie do so to be in the company of nature, and it keeps them company always. It doesn’t matter which part of the town you may be in, the sight of snowcapped peaks of Dhauladhar Range greet you constantly. The clouds embrace the mountains in the distance, while the greenery of the landscape is brought out by the sun’s rays in another. This contrast lightens the mood and cheers you up. A trip to Dalhousie is largely about sightseeing, because the landscape lends itself perfectly to this activity.   
+   </I></B></P>
+                <h3 id="DarkModetext">Dark Mode is OFF</h3>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    <script>
+      function darkMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+        content.innerText = "Dark Mode is ON";
+      }
+      function lightMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+        content.innerText = "Dark Mode is OFF";
+      }
+    </script>
+ 
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body
+       {
+        padding:25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+      .light-mode {
+        background-color: white;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <body>
+        <section class="header">
+            <nav>
+               
+                <div class="w3-row-padding" style="box-sizing: content-box;">
+                  <div class="w3-half w3-margin-bottom">
+               <div class="nav-links" id="navl links">
+              <i class="fa fa-bars" on click="hide menu()"></i>
+                    
+                </div>
+                
+            </nav>
+   
+            <section class=" place">
+                
+  <p><B><I>Nestled among the rolling mountains with the glistening Mt Kanchenjunga towering over the azure sky, Darjeeling fondly called “Queen of the Hills”, provides a perfect gateway for those seeking to be in harmony with nature. This is the land of the muscatel flavored Darjeeling tea revered by connoisseurs across the globe.</I></B> </p>
+        <H1> <b> DARJEELING</b> </H1>
+        <div class="row1">
+            <div class="place-col">
+               <div class="w3-row-padding" style="margin:0 -16px">
+                  <div class="w3-half w3-margin-bottom">
+                   <div class="w3-display-container">
+
+                    <img src="" alt="DARJEELING" style="width:100%">
+                    <span class="w3-display-bottomleft w3-padding"></span>
+                  </div>
+                </div>
+  
+    
+        <P>
+            <B><I> This is the land of the world heritage Darjeeling Himalayan Railway where the century old miniature steam engine still chugs uphill vying for space with the fast disappearing Land Rovers. “Flowers are everywhere. The days are cold and the sun almost seems to play hide and seek with us”. – Kabiguru Rabindranath Tagore. It is certainly that Darjeeling in the post modern era comprises of six T’s -Tea, Teak, Tourism, Toy Train, Tiger Hill and Trekkers’ paradise.
+<BR><br>
+    Why is Darjeeling so famous?<BR>
+Popularly known as the ' Queen of the Hills' ,Darjeeling is a favoured tourist destination, noted for its scenic beauty, ancient forests, quaint houses , friendly peopleand the mountain panorama that it provides.
+            </I></B> </P>
+   
+  
+ 
+  
+    <h3 id="DarkModetext">Dark Mode is OFF</h3>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    <script>
+      function darkMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+        content.innerText = "Dark Mode is ON";
+      }
+      function lightMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+        content.innerText = "Dark Mode is OFF";
+      }
+    </script>
+ 
+</div>
+
+  </body>
+</html>
